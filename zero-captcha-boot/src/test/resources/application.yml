@@ -1,0 +1,22 @@
+aj:
+    captcha:
+        aes-status: true
+        cache-type: local
+        history-data-clear-enable: false
+        interference-options: 2
+        jigsaw: classpath:images/jigsaw
+        pic-click: classpath:images/pic-click
+        req-check-minute-limit: 70
+        req-frequency-limit-enable: false
+        req-get-lock-limit: 5
+        req-get-lock-seconds: 360
+        req-get-minute-limit: 30
+        req-verify-minute-limit: 80
+        slip-offset: 5
+        type: default
+        water-mark: 我的水印
+server:
+    port: 8080
+spring:
+    application:
+        name: zero-captcha-boot

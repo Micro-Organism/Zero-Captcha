@@ -1,0 +1,18 @@
+aj:
+    captcha:
+        aes-status: true
+        cache-type: local
+        font-size: 25
+        font-style: 1
+        history-data-clear-enable: false
+        interference-options: 2
+        jigsaw: classpath:images/jigsaw
+        pic-click: classpath:images/pic-click
+        req-check-minute-limit: 30
+        req-frequency-limit-enable: false
+        req-get-lock-limit: 5
+        req-get-lock-seconds: 360
+        req-get-minute-limit: 30
+        slip-offset: 5
+        type: default
+        water-mark: 我的水印
